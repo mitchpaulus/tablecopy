@@ -1,0 +1,2 @@
+#!/usr/bin/env mshell
+[gcc -std=c99 -Wall -O2 main.c -o tsvgui -I/usr/include -L/usr/lib -lraylib -lm -lpthread -ldl -lrt -lX11 -lGL -lXrandr -lXinerama -lXi -lXxf86vm]!
